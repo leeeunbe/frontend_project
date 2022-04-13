@@ -1,0 +1,19 @@
+html,body{
+    background-image: url(/img/편지지\ 배경2.jpg);
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0;
+
+}
+.container{
+    padding-top:15%;
+    padding-left:10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+

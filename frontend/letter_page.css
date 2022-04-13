@@ -1,0 +1,28 @@
+html,body{
+    background-image: url(/img/편지지\ 배경2.jpg);
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container .letter_contents{
+    margin-top: 1%;
+    width: 80%;
+    height: 80%;
+    padding: 15px;
+    background-color: white;
+    border: 5px solid;
+    border-radius: 15px;
+    align-self: center;
+    font-size: 25px;
+}

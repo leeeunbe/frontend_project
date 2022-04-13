@@ -1,0 +1,32 @@
+/* 구글 글꼴_Happy Birthday 용도 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&family=Rubik+Puddles&display=swap');
+
+
+html,body{
+    background-image: url(/img/편지지\ 배경2.jpg);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Puddles', cursive;
+    /* padding-right: -20%; */
+}
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    justify-items: center;
+}
+.container h1{
+    font-size: 100px;
+  
+}
